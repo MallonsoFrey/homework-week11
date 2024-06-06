@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shoppingCart.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cart-header">
+            <h1>Корзина</h1>
+        </div>
+        <section class="cart">
+            <div class="cart-item cart-item__moto">
+                <div class="cart-item__image">
+                    <img src="./assets/moto.jpg" alt="motorcycle">
+                </div>
+                <div class="cart-item__info">
+                    <h2>YAMAHA R6 RACE</h2>
+                    <p>Color: Tech Black</p>
+                    <p>Quantity: 1</p>
+                </div>
+                <div class="cart-item__price">
+                    €<p id="price1">13.000,00</p>
+                </div>
+            </div>
+
+            <div class="cart-item cart-item__helmet">
+                <div class="cart-item__image">
+                    <img src="./assets/helmet.jpeg" alt="helmet">
+                </div>
+                <div class="cart-item__info">
+                    <h2>Full Face Helmet</h2>
+                    <p>Color: Black</p>
+                    <p>Quantity: 1</p>
+                </div>
+                <div class="cart-item__price price">
+                    €<p id="price2">699,00</p>
+                </div>
+            </div>
+
+            <div class="cart-item cart-item__gloves">
+                <div class="cart-item__image">
+                    <img src="./assets/gloves.jpeg" alt="gloves">
+                </div>
+                <div class="cart-item__info">
+                    <h2>Motorcycle Gloves</h2>
+                    <p>Color: Black</p>
+                    <p>Quantity: 1</p>
+                </div>
+                <div class="cart-item__price price">
+                    €<p id="price3">144,95</p>
+                </div>
+            </div>
+
+            <div class="cart-item cart-item__shoes">
+                <div class="cart-item__image">
+                    <img src="./assets/shoes.jpeg" alt="shoes">
+                </div>
+                <div class="cart-item__info">
+                    <h2>Boots</h2>
+                    <p>Color: Black</p>
+                    <p>Quantity: 1</p>
+                </div>
+                <div class="cart-item__price price">
+                    €<p id="price4">530,00</p> 
+                </div>
+            </div>
+
+        </section>
+        <div class="cart-footer">
+            <button class="discount-button">Использовать купон на 20%</button>
+            <div class="cart-footer__total-price">
+                Итого:
+                <div id="total-price"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="shoppingCart.js"></script>
+</body>
+</html>

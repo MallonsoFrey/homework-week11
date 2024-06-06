@@ -1,0 +1,32 @@
+html, * {
+    font-family: "LXGW WenKai TC", cursive;
+    font-size: calc(16/1200 * 100rem);
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(249, 157, 209);
+    margin: 0 30%;
+    padding-bottom: 10rem;
+}
+
+input, button {
+    border-radius: 10px;
+}
+
+button {
+    margin: 2rem 0;
+    background-color: violet;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(115, 113, 113);
+}
+
+li {
+    list-style: '🌸';
+}
